@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<title>EXERCISE1</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+
+body{margin:0px;}
+
+header{width:1200px;
+margin:0px auto; /* to centralize it */
+display:flex;background:green;}
+
+header div{ width:200px;padding:10px 0px;}
+
+header nav a,header div a{ text-decoration:none; color:red; font-size:20px; text-transform:capitalize; 
+              font-weight:bold; text-shadow:#ffffff 2px 2px 5px;  border:5px gray ridge;
+              padding:10px;  border-radius:10px 5px; /*always try to give border-radius equal to padding*/
+			  width:200px; display:block; /*to make it accept width*/ 
+              text-align:center;  box-sizing:border-box;
+            }
+header nav a{ background:cyan;}
+header nav{ width:1000px; padding:10px 0px; 
+ box-sizing:border-box; /* used where we have given either border or padding or both */ 
+ }
+
+header nav ul{ list-style:none; margin:0px; padding:0px; display:flex; }
+header nav ul ul{display:none; position:absolute; }
+header nav ul li:hover ul{ display:block;}			
+			
+			
+</style>
+</head>
+<body>
+
+<!--  Never use an element , which has its own property like h1,h2... -->
+
+<header>
+ <div><a href="index.html"> LOGO </a></div>
+ 
+<nav>  
+<ul> 
+    <li> <a href="#">HOME</a>
+         <ul> 
+             <li> <a href="#">FACULTY</a> </li>
+             <li> <a href="#">STUDENTS</a> </li>
+         </ul>
+     </li>
+ 
+    <li> <a href="#">ABOUT US</a>
+         <ul> 
+             <li> <a href="#">ACADEMIC STAFF</a> </li>
+             <li> <a href="#">NON ACADEMIC STAFF</a> </li>
+             <li> <a href="#">OTHER STAFF</a> </li>
+         </ul>
+     </li>
+
+    <li> <a href="#">SERVICES</a>
+         <ul> 
+             <li> <a href="#">HOSTEL</a> </li>
+             <li> <a href="#">GYMNASIUM</a> </li>
+             <li> <a href="#">FREE WIFI</a> </li>
+         </ul>
+     </li>
+     
+     <li> <a href="#">PORTFOLIO</a>
+         <ul> 
+             <li> <a href="#">ALUMINI</a> </li>
+             <li> <a href="#">DEANS</a> </li>
+             <li> <a href="#">CONVOCATION</a> </li>
+             <li> <a href="#">GOLD-MEDALIST</a> </li>
+         </ul>
+     </li>
+
+      <li> <a href="#"> CONTACT US</a> </li>
+</ul>
+</nav>
+</header>
+ 
+
+</body>
+</html>

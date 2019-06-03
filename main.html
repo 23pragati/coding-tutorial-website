@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<title> PRACTICE</title>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+body{margin:0px;background:#e9e9e9;}
+
+
+.qw{ width:1400px; margin:0px auto; display:flex;}
+
+.pre{width:200px; }
+
+.view{ width:1000px; position:relative; background:#0101ff;}
+
+.pre ul{ list-style:none; margin:0px; padding:0px;}
+
+.pre ul li:nth-child(odd) a{ width:100%; /* automatically takes width of its parent element */
+ background:#ee1010; display:block; font-weight:bold; font-size:32px; text-align:center; color:#ffffff; padding:10px; box-sizing:border-box;  text-decoration:none;}
+ 
+.pre ul li:nth-child(even) a{ width:100%; /* automatically takes width of its parent element */
+ background:#ff0011; text-decoration:none; display:block; font-weight:bold; font-size:32px; text-align:center; color:#ffffff; padding:10px; box-sizing:border-box; }
+ 
+.view div{ width:1200px; height:850px; box-sizing:border-box; border:3px groove red; position:absolute; left:0px; top:0px; background:#10ef01; font-size:30px; text-align:left; padding:50px;} 
+
+#v1{z-index:13;}
+#v2{z-index:12;}
+#v3{z-index:11;}
+#v4{z-index:10;}
+#v5{z-index:9;}
+#v6{z-index:8;}
+#v7{z-index:7;}
+#v8{z-index:6;}
+#v9{z-index:5;}
+#v10{z-index:4;}
+#v11{z-index:3;}
+#v12{z-index:2;}
+#v13{z-index:1;}
+
+#v1:target{z-index:14;}
+#v2:target{z-index:14;}
+#v3:target{z-index:14;}
+#v4:target{z-index:14;}
+#v5:target{z-index:14;}
+#v6:target{z-index:14;}
+#v7:target{z-index:14;}
+#v8:target{z-index:14;}
+#v9:target{z-index:14;}
+#v10:target{z-index:14;}
+#v11:target{z-index:14;}
+#v12:target{z-index:14;}
+#v13:target{z-index:14;}
+
+
+
+header{width:1400px;margin:0px auto; display:flex;background:green;}
+.d1{width:400px;background:blue;display:flex;justify-content:center;}/*--instead of display: flex and justify content:center  ... we can use text-align:center*/
+.d1 img{margin:50px 0px;}
+.d2{width:700px; font-size:50px; font-weight:bold; text-align:center; color:red;}
+.d2 span{color:black;font-size:45px; }
+.d2 span:hover{color:blue;font-size:50px; }
+.d3{width:300px;background:yellow;}
+.d3 a{ width:100px; display:block; padding:20px; font-weight:bold; text-align:center; border:3px gray outset; border-radius:10px 20px; color:black; text-decoration:none; background:#e9e9e9;  margin:70px 0px 0px 70px; } 
+/* anchor and span tags dont take width , so we give display:block;*/
+.d3 a:hover{ background:gray; font-size:20px; }
+/* :hover can be applied on any element*/
+.d3 a:active{ background:red; border-radius:0px; }
+.d3 a:visited{ background:red; }
+</style>
+</head>
+<body>
+
+<header>
+ <div class="d1"> <a href="" target="_blank"> <img src="logo.jpg" width="200px" height="100px"></a></div>
+ <div class="d2"><span> ONLINE EDUCATION, </span> Educating for a better tomorrow</div>
+ <div class="d3"> <a href="I/index.html" target="_blank" > HOME </a> </div>
+</header>
+ 
+<div class="qw">
+<div class="pre">
+  <ul>
+    <li> <a href="#v1"><i> C PROGRAMS</i></a></li>
+    <li> <a href="#v2">Hello World</a></li>
+    <li> <a href="#v3">Array</a></li>
+    <li> <a href="#v4">Pointers</a></li>
+    <li> <a href="#v5">Structures</a></li>
+    <li> <a href="#v6">Union</a></li>
+    <li> <a href="#v7">Enum</a></li>
+    <li> <a href="#v8">File Handling</a></li>
+    <li> <a href="#v9">Preprocessors</a></li>
+    <li> <a href="#v10">Input Output</a></li>
+    <li> <a href="#v11">Linked List</a></li>
+    <li> <a href="#v12">Stack</a></li>
+    <li> <a href="#v13">Queue</a></li>
+  </ul>
+ </div>
+<div class="view">
+ <div id="v1">
+   C is a general-purpose, high-level language that was originally developed by Dennis M. Ritchie to develop the UNIX operating system at Bell Labs. C was originally first implemented on the DEC PDP-11 computer in 1972.
+
+In 1978, Brian Kernighan and Dennis Ritchie produced the first publicly available description of C, now known as the K&R standard.
+
+The UNIX operating system, the C compiler, and essentially all UNIX application programs have been written in C. C has now become a widely used professional language for various reasons -
+
+Easy to learn
+Structured language
+It produces efficient programs
+It can handle low-level activities
+It can be compiled on a variety of computer platforms
+Facts about C
+C was invented to write an operating system called UNIX.
+
+C is a successor of B language which was introduced around the early 1970s.
+
+The language was formalized in 1988 by the American National Standard Institute (ANSI).
+
+The UNIX OS was totally written in C.
+
+Today C is the most widely used and popular System Programming Language.
+
+Most of the state-of-the-art software have been implemented using C.
+
+Today's most popular Linux OS and RDBMS MySQL have been written in C.
+        
+ </div>
+ <div id="v2"><img src="1.png" width="1000px" height="300px">
+   <img src="1.jpg" width="1000px" height="300px"></div>
+ <div id="v3">c</div>
+ <div id="v4">d</div>
+ <div id="v5">e</div> 
+
+ <div id="v6">f</div> 
+ <div id="v7">g</div> 
+ <div id="v8">h</div> 
+ <div id="v9">i</div> 
+ <div id="v10">j</div> 
+ <div id="v11">k</div> 
+ <div id="v12">l</div> 
+ <div id="v13">m</div> 
+ </div>
+
+
+</div>
+
+</body>
+</html>

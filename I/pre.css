@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid{background:#990000; padding:20px 0px;}
+section{padding:20px 0px;}
+@font-face{font-family:fix; src:url(georgia.ttf);}
+*{font-family:fix; box-sizing:border-box;}
+.carousel-item img{width:100%; height:100%;}
+
+.fa{ background:black; border:1px solid gray; padding:5px; 
+ font-size:64px !important;
+}
